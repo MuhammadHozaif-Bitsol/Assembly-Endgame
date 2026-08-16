@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./App.css";
 export default function App() {
   return (
     <>
@@ -11,6 +11,10 @@ export default function App() {
             from Assembly!
           </p>
         </header>
+        <section className="game-status">
+          <h2>You win!</h2>
+          <p>Well done! 🎉</p>
+        </section>
       </main>
     </>
   );
